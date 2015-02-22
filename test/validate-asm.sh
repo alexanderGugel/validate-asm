@@ -6,7 +6,7 @@ VALID_FILES=${DIR}/valid/*.js
 
 for f in $VALID_FILES
 do
-    validate-asm $f
+    ./bin/validate-asm $f
     if [ $? -ne 0 ]; then
         exit 1
     fi
@@ -16,7 +16,7 @@ INVALID_FILES=${DIR}/invalid/*.js
 
 for f in $INVALID_FILES
 do
-    validate-asm $f
+    ./bin/validate-asm $f
     if [ $? -ne 1 ]; then
         exit 1
     fi
