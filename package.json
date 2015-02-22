@@ -1,0 +1,22 @@
+{
+  "name": "validate-asm",
+  "version": "0.0.0",
+  "bin": {
+    "validate-asm": "./bin/validate-asm"
+  },
+  "scripts": {
+    "test": "./test/validate-asm.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "asm.js": "0.0.2",
+    "colors": "^1.0.3",
+    "minimist": "^1.1.0"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {}
+}
