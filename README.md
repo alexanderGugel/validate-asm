@@ -69,6 +69,10 @@ Standard Options:
 Specify a parameter.
 ```
 
+## credits
+
+* based on [asm.js](https://github.com/dherman/asm.js/tree/master/lib)
+
 ## license
 
 ISC
